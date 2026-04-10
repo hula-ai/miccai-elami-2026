@@ -33,7 +33,7 @@ export default function Home() {
             variants={fadeIn}
             custom={1}
           >
-            Emerging LLM/LMM Applications in Medical Imaging (ELAMI)
+            2nd Emerging LLM/LMM Applications in Medical Imaging (ELAMI)
           </motion.p>
         </motion.div>
 
