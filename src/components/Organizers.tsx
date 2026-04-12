@@ -6,6 +6,7 @@ import nganLeImg from '/public/ngan_le.jpg';
 import yuyinZhouImg from '/public/yuyin_zhou.jpg';
 import yongsongImg from '/public/yongsong_huang.jpeg';
 import akashAwasthiImg from '/public/akash_awasthi.jpg';
+import maiAnhVuImg from '/public/mai_anh_vu.jpg';
 
 const organizers = [
   {
@@ -56,6 +57,13 @@ const organizers = [
     affiliation: 'NASA Earth eXchange (NEX)',
     image: akashAwasthiImg,
     profileUrl: 'https://www.nasa.gov/people/akash-awasthi/',
+  },
+  {
+    name: 'Mai-Anh Vu',
+    role: 'Technical Chair',
+    affiliation: 'University of Houston',
+    image: maiAnhVuImg,
+    profileUrl: 'https://www.linkedin.com/in/vu-mai-anh/',
   }
 ];
 
