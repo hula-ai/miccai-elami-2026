@@ -11,9 +11,10 @@ export default function CallForPapers() {
         <p className="mt-2 text-indigo-700">
           All submissions should be made through the Open Review platform:
           <a 
-            href="#"
-            onClick={(e) => e.preventDefault()}
+            href="https://openreview.net/group?id=MICCAI.org/2026/Workshop/ELAMI"
             className="ml-2 text-indigo-600 hover:text-indigo-900 underline"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Submit Paper
           </a>
