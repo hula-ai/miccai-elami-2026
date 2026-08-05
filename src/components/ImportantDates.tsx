@@ -3,7 +3,7 @@ import React from 'react';
 const dates = [
   { event: 'Paper Submission Deadline', date: 'July 15, 2026' },
   { event: 'Notification of Acceptance', date: 'July 29, 2026' },
-  { event: 'Camera-Ready Submission', date: 'August 5, 2026' },
+  { event: 'Camera-Ready Submission', date: 'August 7, 2026' },
   { event: 'Workshop Date', date: 'September 27, 2026' }
 ];
 
