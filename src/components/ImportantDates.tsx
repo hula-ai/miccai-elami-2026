@@ -3,7 +3,7 @@ import React from 'react';
 const dates = [
   { event: 'Paper Submission Deadline', date: 'July 15, 2026' },
   { event: 'Notification of Acceptance', date: 'July 29, 2026' },
-  { event: 'Camera-Ready Submission', date: 'August 10, 2026' },
+  { event: 'Camera-Ready Submission', date: 'August 5, 2026' },
   { event: 'Workshop Date', date: 'September 27, 2026' }
 ];
 
@@ -29,8 +29,6 @@ export default function ImportantDates() {
 
       <div className="mt-8">
         <p className="text-gray-600">
-          All deadlines are at 23:59 AoE (Anywhere on Earth) on the specified date.
-          No extensions will be granted.
         </p>
       </div>
     </div>
