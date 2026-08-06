@@ -64,7 +64,6 @@ export default function CallForPapers() {
                   Optional supplemental material may include:
                 </p>
                 <ul className="mt-2 list-disc list-inside text-gray-600">
-                  <li>Videos of results</li>
                   <li>Anonymized related submissions</li>
                   <li>Extended proofs and mathematical derivations</li>
                   <li>Technical reports</li>
