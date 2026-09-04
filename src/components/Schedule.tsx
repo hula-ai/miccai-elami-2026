@@ -83,7 +83,7 @@ export default function Schedule() {
       </div>
 
       <p className="mt-6 text-sm text-gray-500 italic">
-        Note: 16 papers accepted (Oral) are scheduled across two paper sessions, 4 minutes each, bookended by two keynote talks.
+        Note: 16 papers accepted (Oral) are scheduled across two paper sessions, 4 minutes each, bookended by three keynote talks.
       </p>
     </div>
   );
