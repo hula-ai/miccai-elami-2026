@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import CallForPapers from "./components/CallForPapers";
 import ImportantDates from "./components/ImportantDates";
 import Organizers from "./components/Organizers";
+import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 						<Route path="/call-for-papers" element={<CallForPapers />} />
 						<Route path="/important-dates" element={<ImportantDates />} />
 						<Route path="/organizers" element={<Organizers />} />
+						<Route path="/schedule" element={<Schedule />} />
 					</Routes>
 			
 

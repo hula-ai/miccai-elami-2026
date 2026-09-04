@@ -13,6 +13,7 @@ const navigation: NavItem[] = [
   { name: "Home", href: "/" },
   { name: "Call for Papers", href: "/call-for-papers" },
   { name: "Important Dates", href: "/important-dates" },
+  { name: "Schedule", href: "/schedule" },
   { name: "Organizers", href: "/organizers" },
 ];
 
