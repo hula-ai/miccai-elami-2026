@@ -55,36 +55,9 @@ export default function Schedule() {
         </span>
       </div>
 
-      <div className="mt-8 bg-white shadow overflow-hidden sm:rounded-lg">
-        <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-indigo-50">
-            <tr>
-              <th className="px-6 py-3 text-left text-xs font-semibold text-indigo-700 uppercase tracking-wider w-40">
-                Time
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-semibold text-indigo-700 uppercase tracking-wider">
-                Session / Topic
-              </th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-gray-100">
-            {scheduleData.map((row, idx) => (
-              <tr key={idx} className={row.bold ? 'bg-gray-50' : 'bg-white'}>
-                <td className={`px-6 py-3 text-sm whitespace-nowrap ${row.bold ? 'font-semibold text-gray-800' : 'text-gray-500'}`}>
-                  {row.time}
-                </td>
-                <td className={`px-6 py-3 text-sm ${row.bold ? 'font-semibold text-gray-900' : 'text-gray-700'}`}>
-                  {row.session}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div className="mt-8 bg-white shadow sm:rounded-lg px-6 py-10 text-center">
+        <p className="text-gray-500 text-base">The schedule will be posted here soon. Please check back later.</p>
       </div>
-
-      <p className="mt-6 text-sm text-gray-500 italic">
-        Note: 16 papers accepted (Oral) are scheduled across two paper sessions, 4 minutes each, bookended by three keynote talks.
-      </p>
     </div>
   );
 }
